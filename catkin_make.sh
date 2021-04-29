@@ -1,1 +1,1 @@
-catkin_make -C ./catkin_ws
+catkin_make -C ./ROS/catkin_ws

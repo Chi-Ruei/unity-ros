@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find interbotix_moveit)/config/params.yaml" command="load"/>
+    <node name="server_endpoint" pkg="interbotix_moveit" type="server_endpoint.py" args="--wait" output="screen" respawn="true" />
+    <node name="trajectory_subscriber" pkg="interbotix_moveit" type="trajectory_subscriber.py" args="--wait" output="screen"/>
+</launch>
