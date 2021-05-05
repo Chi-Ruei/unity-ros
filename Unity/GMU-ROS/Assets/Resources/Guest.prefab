@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3996156779119240170}
   - component: {fileID: 5556328895261995200}
   - component: {fileID: 5612546253139303836}
+  - component: {fileID: 7070966369789018718}
+  - component: {fileID: 8942871614035614586}
   m_Layer: 0
   m_Name: Guest
   m_TagString: Untagged
@@ -138,3 +140,34 @@ MonoBehaviour:
   Head: {fileID: 0}
   L_Hand: {fileID: 0}
   R_Hand: {fileID: 0}
+--- !u!114 &7070966369789018718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502606679598367692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff98778ae051cfd40a6e4effdf851ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SecondsTimeout: 10
+  Serializer: 0
+  protocol: 0
+  RosBridgeServerUrl: ws://10.42.0.2:9090
+--- !u!114 &8942871614035614586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502606679598367692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa23b622c60c13f48bdfa74b2e974f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: 
+  PublishedTransform: {fileID: 5502606679598367697}
+  FrameId: Unity
