@@ -1,3 +1,8 @@
+# Oculus-VR-locobot
+In this project, you can oculus VR information from windows unity on laptp to ununtu ros on Locobot,and it's bilateral.  
+
+# GMU-ROS 
+In this project, contains the unity virtual environment built by GMU, and combines with ros sharp, which can directly communicate with ubuntu ros.
 # Unity-ROS 
 In this project, I have already packaged unity3d and ros into docker.  
 You can open unity directly in docker and communicate with the robot through ros.  
