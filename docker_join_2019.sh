@@ -15,7 +15,7 @@ fi
 
 BASH_OPTION=bash
 
-IMG=argnctu/medical:unity-ros
+IMG=argnctu/medical:unity-ros-2019
 
 xhost +
 containerid=$(docker ps -aqf "ancestor=${IMG}") && echo $containerid

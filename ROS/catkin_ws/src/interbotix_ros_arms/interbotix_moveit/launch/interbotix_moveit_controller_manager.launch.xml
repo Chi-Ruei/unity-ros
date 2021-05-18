@@ -2,7 +2,7 @@
 
   <!-- loads moveit_controller_manager on the parameter server -->
   <arg name="dof"                         default="6"/>
-  <arg name="fake_execution"              default="true"/>
+  <arg name="fake_execution"              default="false"/>
 
  <group if="$(arg fake_execution)">
 

@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 2.8.3)
 project(interbotix_moveit)
 
 find_package(catkin REQUIRED COMPONENTS
+  roscpp
   rospy
   std_msgs
+  std_srvs
   geometry_msgs
   ros_tcp_endpoint
   message_generation

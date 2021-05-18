@@ -78,5 +78,5 @@ docker run \
     -e "UNITY_USERNAME=$UNITY_USERNAME" \
     -e "UNITY_PASSWORD=$UNITY_PASSWORD" \
     -e UNITY_LICENSE_CONTENT \
-    argnctu/medical:unity-ros \
+    argnctu/medical:unity-ros-2020 \
     $BASH_OPTION
