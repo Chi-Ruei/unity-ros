@@ -1,3 +1,3 @@
 [submodule "/home/rick/unity-ros/ROS/catkin_ws/src/VR-locobot"]
-	path = /home/rick/unity-ros/ROS/catkin_ws/src/VR-locobot
+	path = ROS/catkin_ws/src/VR-locobot
 	url = https://github.com/Chi-Ruei/VR-locobot.git
